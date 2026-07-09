@@ -1,0 +1,1 @@
+Give me a relevant section from a Dev Conference website. Generate a simple FAQ accordion using pure HTML/CSS only (no JS), with white cards, gray border, and #2563EB accent color.
