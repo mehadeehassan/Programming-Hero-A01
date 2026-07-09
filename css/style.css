@@ -13,10 +13,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 28px 8%;
 }
 nav img {
-    width: 100px;
+    width: 134px;
+    height: 44px;
 }
 nav ul {
     display: flex;
@@ -32,7 +33,9 @@ nav button {
     background-color: #1D4ED8;
     color: #FFFFFF;
     border: none;
-    padding: 10px 24px;
+    width: 188px;
+    height: 48px;
+    /* padding: 12px 24px; */
     border-radius: 8px;
     cursor: pointer;
 }
@@ -69,9 +72,9 @@ nav button {
     background-color: #1D4ED8;
     color: #FFFFFF;
     border: none;
-    width: 200px;
+    width: 282px;
     height: 74px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     border-radius: 10px;
     cursor: pointer;
@@ -141,7 +144,6 @@ main {
 
 .pricing-parent {
     margin-top: 10%;
-    padding: 0 12%;
 }
 .pricing-parent h2 {
     font-size: 48px;
@@ -253,7 +255,6 @@ hr {
 /* Pricing Section End */
 
 /* FAQ Section */
-
 .faq-parent {
     margin: 100px 0;
     padding: 0 8%;
