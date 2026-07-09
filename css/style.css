@@ -35,7 +35,6 @@ nav button {
     border: none;
     width: 188px;
     height: 48px;
-    /* padding: 12px 24px; */
     border-radius: 8px;
     cursor: pointer;
 }
@@ -45,7 +44,7 @@ nav button {
 /* Hero Section */
 
 .hero-parent {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 42%), rgba(0, 0, 0, 87%)), url("../image/banner.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,12 +60,14 @@ nav button {
     color: #FFFFFF;
     font-size: 80px;
     font-weight: 600;
+    margin-top: 40px;
+    padding: 15px 0;
 }
 .hero-child p {
     color: #ebe5e5d8;
     font-size: 22px;
     font-weight: 300;
-    margin-bottom: 50%;
+    margin-bottom: 35%;
 }
 .hero-child button {
     background-color: #1D4ED8;
@@ -78,6 +79,7 @@ nav button {
     font-size: 24px;
     border-radius: 10px;
     cursor: pointer;
+    /* margin-bottom: 50px; */
 }
 /* Hero Section End */
 
