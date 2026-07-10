@@ -146,6 +146,7 @@ main {
 
 .pricing-parent {
     margin-top: 10%;
+    padding: 0 10%;
 }
 .pricing-parent h2 {
     font-size: 48px;
@@ -192,11 +193,13 @@ main {
     color: #575757;
     font-weight: 300;
 }
-hr {
+.price-card hr {
+    width: 100%;
     border: #E5E7EB 1px solid;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 .price-card ul li {
+    width: 100%;
     font-size: 14px;
     color: #333333;
     font-weight: 400;
@@ -224,14 +227,15 @@ hr {
     color: rgba(255, 255, 255, 0.5);
 }
 .featured hr {
+    width: 100%;
     border: rgba(255, 255, 255, 0.1) 1px solid;
 }
 .featured.price-card ul li {
     color: rgba(255, 255, 255, 0.5);
 }
 .price-card button {
-    width: 310px;
-    height: 45px;
+    width: 100%;
+    height: 40px;
     font-weight: 500;
     font-size: 14px;
     border-radius: 10px;
